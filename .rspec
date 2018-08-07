@@ -1,1 +1,4 @@
---color
+df FizzBuzz
+
+return "Fizz" when the number is divisible by 3
+fizz_3 = 
