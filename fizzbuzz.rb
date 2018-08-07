@@ -1,8 +1,8 @@
 def fizzbuzz(num)
-  if num % 3 == 0 
+  if num % 3 == 0 && num % 5 != 0
     puts "fizz"
     
-    elsif num % 5 == 0 
+    elsif num % 5 == 0 && num % 3 != 0 
     puts "buzz"
     
     elsif num % 3 == 0 && num % 5 == 0 
@@ -11,5 +11,5 @@ def fizzbuzz(num)
   end 
 end 
 
-fizzbuzz(20)
+fizzbuzz(15)
 
